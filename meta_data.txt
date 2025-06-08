@@ -1,0 +1,67 @@
+This document provides metadata descriptions for the data in the 'fact_ipl_central_contracts', 'fact_ipl_advertisers', 'fact_summary_demography' and 'fact_revenue_demography'
+
+-------------------------------------------------------------------------------
+fact_ipl_central_contracts
+Purpose: This table contains detailed information about IPL central contracts, including the type of sponsor, the amount involved, the total deal value, and the contract duration, providing insights into the financial landscape of IPL sponsorships.
+
+contract_type: Type of the contract 
+
+partner_sponsor_name: Name of the partner or sponsor 
+
+amount_in_crores_2025: The amount paid for the contract for the year 2025 in crores.
+
+total_deal_value_in_crores: The total deal value in crores for the contract.
+
+contract_duration: Duration of the contract
+
+--------------------------------------------------------------------------------
+
+fact_ipl_advertisers
+Purpose: This table provides detailed information on the advertisers associated with IPL, including the brand name, category, celebrity endorsements, and potential health/social risks associated with the product, helping to analyze the impact of these advertising relationships.
+
+advertiser_brand: The name of the advertiser brand 
+
+category: The category of the advertiser (e.g., Pan Masala/Mouth Freshener, Fantasy Gaming).
+
+brand_ambassadors: The celebrities representing the brand 
+
+celebrity_influence: The level of celebrity influence (e.g., Extremely High, High).
+
+health_social_risk: The potential health/social risk associated with the product 
+
+
+----------------------------------------------------------------------------------
+
+fact_summary_demography
+Purpose: This table provides a high-level summary of demographic data, detailing specific groups and their key characteristics. The information helps in understanding population segments, which is crucial for targeted marketing and product/service customization.
+
+income_group: The income group classification (e.g., Lower Income, Lower-Middle, Middle).
+
+annual_income: The income range associated with each group 
+
+estimated_user_population: An estimated range of the user population in millions 
+
+key_characteristics: Key behavioral or socio-economic traits associated with each income group 
+
+-----------------------------------------------------------------------------------
+
+fact_revenue_demography
+Purpose: This table provides detailed demographic and revenue-related insights for various companies and sectors, including information on income groups, target age ranges, urban population coverage, and demographic characteristics. It helps in understanding the market reach and the potential consumer base for each company.
+
+company: The name of the company or brand 
+
+sector: The industry or sector to which the company belongs 
+
+parent: The parent company or group (e.g., Dream Sports).
+
+latest_annual_revenue: The reported or estimated annual revenue for the company, given in millions or crores
+
+age_group: The core target age group(s) for the company's products or services
+
+income_group: The income classification(s) of the company's target audience 
+
+urban_population: The geographic area and population type targeted by the company.
+
+demographic_notes: Notes about the demographic characteristics of the target audience, including gender distribution, geographic distribution, and psychographic details 
+
+Demographic Notes (URL): A link to further resources or reports providing additional insights on the company's market strategy
